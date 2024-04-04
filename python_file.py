@@ -1,3 +1,4 @@
+#The parent class School
 class School:
 
   def __init__(self, name, level, numberOfStudents=0):
@@ -20,8 +21,9 @@ class School:
   def __repr__(self):
     return f"This is a {self.level} school named {self.name} with {self.numberOfStudents} students."
 
+#The child class PrimarySchool
 class PrimarySchool(School):
-
+  
   def __init__(self, name, numberOfStudents, pickUpPolicy):
     super().__init__(name, "Primary", numberOfStudents)
     self.pickUpPolicy = pickUpPolicy
@@ -32,11 +34,13 @@ class PrimarySchool(School):
   def __repr__(self):
     return super().__repr__() + f"The PickUp Policy of this school is: {self.pickUpPolicy}"
 
+#The child class MiddleSchool
 class MiddleSchool(School):
-
+  
   def __init__(self, name, numberOfStudents):
     super().__init__(name, "Middle", numberOfStudents)
 
+#The child class HighSchool
 class HighSchool(School):
   
   def __init__(self, name, numberOfStudents, sportsTeams):
@@ -53,9 +57,9 @@ class HighSchool(School):
         list_sportsTeams += team + "."
       else:
         list_sportsTeams += team + ", "
-
     return super().__repr__() + f"This school has these sports teams: {list_sportsTeams}" 
 
+#Here is some code that I used to test my classes out
 Imaculata = School("Imaculata", "High")
 Imaculata.set_numberOfStudents(150)
 #print(Imaculata)
