@@ -2,10 +2,10 @@
 
 This is a school project for my Intermediate Python 3 course at Codecademy. 
 
-## Goal
+## Goal 🦾
 The goal of this project is to put my knowledge of classes to the test by creating a digital school catalog.
 
-## Project briefing
+## Project briefing 📜
 
 >We need to create classes for primary and high schools. 
 >Because these classes share properties and methods, each will inherit from a parent School class. 
