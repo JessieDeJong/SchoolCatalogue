@@ -3,7 +3,7 @@
 This is a school project for my Intermediate Python 3 course at Codecademy. 
 
 ## Goal 🦾
-The goal of this project is to put my knowledge of classes to the test by creating a digital school catalog.
+The goal of this project is to put my knowledge of Object Oriented Programming to the test by creating a digital school catalog.
 
 ## Project briefing 📜
 
@@ -15,15 +15,15 @@ The goal of this project is to put my knowledge of classes to the test by creati
 - **Properties:** name (string), level (one of three strings: 'primary', 'middle', or 'high'), and numberOfStudents (integer)
 - **Getters:** all properties have getters
 - **Setters:** the numberOfStudents property has a setter
-- **Methods:** A __repr__ method that displays information about the school.
+- **Methods:** A `__repr__` method that displays information about the school.
 
-#### Primary
+#### Primary School
 Includes everything in the School class, plus one additional property <br>
 - **Properties:** pickupPolicy (string, like "Pickup after 3pm")
 
-#### Middle
+#### Middle School
 Does not include any additional properties or methods. <br>
 
-#### High
+#### High School
 Includes everything in the School class, plus one additional property.
 - **Properties:** sportsTeams (list of strings, like ['basketball', 'tennis'])
